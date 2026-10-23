@@ -1,0 +1,1216 @@
+[
+  {
+    "name": "hero-title-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      210,
+      111,
+      615,
+      309
+    ],
+    "width": 405,
+    "height": 198,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "hero-title-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      174,
+      135,
+      780,
+      288
+    ],
+    "width": 606,
+    "height": 153,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "hero-underline-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      278,
+      307,
+      539,
+      331
+    ],
+    "width": 261,
+    "height": 24,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "hero-underline-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      330,
+      287,
+      608,
+      319
+    ],
+    "width": 278,
+    "height": 32,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "audience-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      211,
+      39,
+      594,
+      115
+    ],
+    "width": 383,
+    "height": 76,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "audience-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      292,
+      70,
+      647,
+      141
+    ],
+    "width": 355,
+    "height": 71,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "information-title-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      202,
+      765,
+      617,
+      856
+    ],
+    "width": 415,
+    "height": 91,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "information-title-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      157,
+      638,
+      758,
+      687
+    ],
+    "width": 601,
+    "height": 49,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "it-title-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      168,
+      878,
+      379,
+      919
+    ],
+    "width": 211,
+    "height": 41,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "it-underline-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      168,
+      918,
+      380,
+      938
+    ],
+    "width": 212,
+    "height": 20,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "career-title-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      168,
+      1083,
+      465,
+      1121
+    ],
+    "width": 297,
+    "height": 38,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "career-underline-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      168,
+      1121,
+      466,
+      1141
+    ],
+    "width": 298,
+    "height": 20,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "events-title-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      174,
+      1266,
+      468,
+      1346
+    ],
+    "width": 294,
+    "height": 80,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "events-underline-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      173,
+      1343,
+      466,
+      1368
+    ],
+    "width": 293,
+    "height": 25,
+    "background": "cream",
+    "polygon": null
+  },
+  {
+    "name": "number-01",
+    "source": "mobile",
+    "sourceBox": [
+      44,
+      854,
+      148,
+      933
+    ],
+    "width": 104,
+    "height": 79,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "number-02",
+    "source": "mobile",
+    "sourceBox": [
+      44,
+      1060,
+      156,
+      1138
+    ],
+    "width": 112,
+    "height": 78,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "number-03",
+    "source": "mobile",
+    "sourceBox": [
+      44,
+      1261,
+      164,
+      1345
+    ],
+    "width": 120,
+    "height": 84,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "info-it",
+    "source": "mobile",
+    "sourceBox": [
+      420,
+      866,
+      774,
+      1046
+    ],
+    "width": 354,
+    "height": 180,
+    "background": "keep",
+    "polygon": null
+  },
+  {
+    "name": "info-career",
+    "source": "mobile",
+    "sourceBox": [
+      462,
+      1080,
+      782,
+      1249
+    ],
+    "width": 320,
+    "height": 169,
+    "background": "keep",
+    "polygon": null
+  },
+  {
+    "name": "info-events",
+    "source": "mobile",
+    "sourceBox": [
+      482,
+      1285,
+      781,
+      1475
+    ],
+    "width": 299,
+    "height": 190,
+    "background": "keep",
+    "polygon": null
+  },
+  {
+    "name": "hero-scene",
+    "source": "mobile",
+    "sourceBox": [
+      0,
+      235,
+      819,
+      565
+    ],
+    "width": 819,
+    "height": 330,
+    "background": "keep",
+    "polygon": [
+      [
+        0,
+        313
+      ],
+      [
+        55,
+        313
+      ],
+      [
+        68,
+        333
+      ],
+      [
+        120,
+        333
+      ],
+      [
+        155,
+        346
+      ],
+      [
+        185,
+        347
+      ],
+      [
+        185,
+        353
+      ],
+      [
+        225,
+        362
+      ],
+      [
+        265,
+        374
+      ],
+      [
+        265,
+        389
+      ],
+      [
+        315,
+        403
+      ],
+      [
+        350,
+        414
+      ],
+      [
+        366,
+        403
+      ],
+      [
+        393,
+        420
+      ],
+      [
+        413,
+        440
+      ],
+      [
+        451,
+        441
+      ],
+      [
+        470,
+        462
+      ],
+      [
+        493,
+        508
+      ],
+      [
+        508,
+        508
+      ],
+      [
+        515,
+        450
+      ],
+      [
+        535,
+        420
+      ],
+      [
+        550,
+        408
+      ],
+      [
+        560,
+        383
+      ],
+      [
+        564,
+        362
+      ],
+      [
+        585,
+        353
+      ],
+      [
+        604,
+        350
+      ],
+      [
+        640,
+        355
+      ],
+      [
+        649,
+        384
+      ],
+      [
+        689,
+        382
+      ],
+      [
+        715,
+        369
+      ],
+      [
+        735,
+        367
+      ],
+      [
+        735,
+        296
+      ],
+      [
+        752,
+        279
+      ],
+      [
+        766,
+        257
+      ],
+      [
+        783,
+        236
+      ],
+      [
+        819,
+        236
+      ],
+      [
+        819,
+        565
+      ],
+      [
+        0,
+        565
+      ]
+    ]
+  },
+  {
+    "name": "campus",
+    "source": "mobile",
+    "sourceBox": [
+      0,
+      313,
+      500,
+      565
+    ],
+    "width": 500,
+    "height": 252,
+    "background": "keep",
+    "polygon": [
+      [
+        0,
+        313
+      ],
+      [
+        55,
+        313
+      ],
+      [
+        68,
+        333
+      ],
+      [
+        120,
+        333
+      ],
+      [
+        155,
+        346
+      ],
+      [
+        185,
+        347
+      ],
+      [
+        185,
+        353
+      ],
+      [
+        225,
+        362
+      ],
+      [
+        265,
+        374
+      ],
+      [
+        265,
+        389
+      ],
+      [
+        315,
+        403
+      ],
+      [
+        350,
+        414
+      ],
+      [
+        366,
+        403
+      ],
+      [
+        393,
+        420
+      ],
+      [
+        413,
+        440
+      ],
+      [
+        451,
+        441
+      ],
+      [
+        470,
+        462
+      ],
+      [
+        493,
+        508
+      ],
+      [
+        508,
+        508
+      ],
+      [
+        515,
+        450
+      ],
+      [
+        535,
+        420
+      ],
+      [
+        550,
+        408
+      ],
+      [
+        560,
+        383
+      ],
+      [
+        564,
+        362
+      ],
+      [
+        585,
+        353
+      ],
+      [
+        604,
+        350
+      ],
+      [
+        640,
+        355
+      ],
+      [
+        649,
+        384
+      ],
+      [
+        689,
+        382
+      ],
+      [
+        715,
+        369
+      ],
+      [
+        735,
+        367
+      ],
+      [
+        735,
+        296
+      ],
+      [
+        752,
+        279
+      ],
+      [
+        766,
+        257
+      ],
+      [
+        783,
+        236
+      ],
+      [
+        819,
+        236
+      ],
+      [
+        819,
+        565
+      ],
+      [
+        0,
+        565
+      ]
+    ]
+  },
+  {
+    "name": "students",
+    "source": "mobile",
+    "sourceBox": [
+      500,
+      235,
+      819,
+      565
+    ],
+    "width": 319,
+    "height": 330,
+    "background": "keep",
+    "polygon": [
+      [
+        0,
+        313
+      ],
+      [
+        55,
+        313
+      ],
+      [
+        68,
+        333
+      ],
+      [
+        120,
+        333
+      ],
+      [
+        155,
+        346
+      ],
+      [
+        185,
+        347
+      ],
+      [
+        185,
+        353
+      ],
+      [
+        225,
+        362
+      ],
+      [
+        265,
+        374
+      ],
+      [
+        265,
+        389
+      ],
+      [
+        315,
+        403
+      ],
+      [
+        350,
+        414
+      ],
+      [
+        366,
+        403
+      ],
+      [
+        393,
+        420
+      ],
+      [
+        413,
+        440
+      ],
+      [
+        451,
+        441
+      ],
+      [
+        470,
+        462
+      ],
+      [
+        493,
+        508
+      ],
+      [
+        508,
+        508
+      ],
+      [
+        515,
+        450
+      ],
+      [
+        535,
+        420
+      ],
+      [
+        550,
+        408
+      ],
+      [
+        560,
+        383
+      ],
+      [
+        564,
+        362
+      ],
+      [
+        585,
+        353
+      ],
+      [
+        604,
+        350
+      ],
+      [
+        640,
+        355
+      ],
+      [
+        649,
+        384
+      ],
+      [
+        689,
+        382
+      ],
+      [
+        715,
+        369
+      ],
+      [
+        735,
+        367
+      ],
+      [
+        735,
+        296
+      ],
+      [
+        752,
+        279
+      ],
+      [
+        766,
+        257
+      ],
+      [
+        783,
+        236
+      ],
+      [
+        819,
+        236
+      ],
+      [
+        819,
+        565
+      ],
+      [
+        0,
+        565
+      ]
+    ]
+  },
+  {
+    "name": "tree-left",
+    "source": "mobile",
+    "sourceBox": [
+      0,
+      88,
+      120,
+      322
+    ],
+    "width": 120,
+    "height": 234,
+    "background": "keep",
+    "polygon": [
+      [
+        0,
+        88
+      ],
+      [
+        120,
+        88
+      ],
+      [
+        120,
+        235
+      ],
+      [
+        77,
+        270
+      ],
+      [
+        28,
+        322
+      ],
+      [
+        0,
+        322
+      ]
+    ]
+  },
+  {
+    "name": "cloud-top",
+    "source": "mobile",
+    "sourceBox": [
+      646,
+      102,
+      761,
+      168
+    ],
+    "width": 115,
+    "height": 66,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "cloud-low",
+    "source": "mobile",
+    "sourceBox": [
+      671,
+      237,
+      754,
+      287
+    ],
+    "width": 83,
+    "height": 50,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "campus-caption",
+    "source": "mobile",
+    "sourceBox": [
+      60,
+      278,
+      211,
+      352
+    ],
+    "width": 151,
+    "height": 74,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "closing-title-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      266,
+      1684,
+      555,
+      1767
+    ],
+    "width": 289,
+    "height": 83,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "closing-title-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      88,
+      1484,
+      416,
+      1593
+    ],
+    "width": 328,
+    "height": 109,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "closing-underline-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      413,
+      1751,
+      508,
+      1776
+    ],
+    "width": 95,
+    "height": 25,
+    "background": "dark",
+    "polygon": null
+  },
+  {
+    "name": "closing-tape-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      175,
+      1767,
+      647,
+      1814
+    ],
+    "width": 472,
+    "height": 47,
+    "background": "dark",
+    "polygon": null
+  },
+  {
+    "name": "closing-tape-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      445,
+      1466,
+      800,
+      1541
+    ],
+    "width": 355,
+    "height": 75,
+    "background": "dark",
+    "polygon": null
+  },
+  {
+    "name": "step-one",
+    "source": "mobile",
+    "sourceBox": [
+      329,
+      1525,
+      494,
+      1562
+    ],
+    "width": 165,
+    "height": 37,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "step-two",
+    "source": "mobile",
+    "sourceBox": [
+      284,
+      1574,
+      535,
+      1614
+    ],
+    "width": 251,
+    "height": 40,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "step-three",
+    "source": "mobile",
+    "sourceBox": [
+      301,
+      1626,
+      517,
+      1667
+    ],
+    "width": 216,
+    "height": 41,
+    "background": "original",
+    "polygon": null
+  },
+  {
+    "name": "steps-rays-left",
+    "source": "mobile",
+    "sourceBox": [
+      212,
+      1545,
+      250,
+      1630
+    ],
+    "width": 38,
+    "height": 85,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "steps-rays-right",
+    "source": "mobile",
+    "sourceBox": [
+      568,
+      1547,
+      605,
+      1630
+    ],
+    "width": 37,
+    "height": 83,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "step-arrow",
+    "source": "mobile",
+    "sourceBox": [
+      396,
+      1557,
+      420,
+      1580
+    ],
+    "width": 24,
+    "height": 23,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "hero-rays-left",
+    "source": "mobile",
+    "sourceBox": [
+      116,
+      234,
+      148,
+      269
+    ],
+    "width": 32,
+    "height": 35,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "hero-rays-right",
+    "source": "mobile",
+    "sourceBox": [
+      627,
+      281,
+      661,
+      328
+    ],
+    "width": 34,
+    "height": 47,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "cloud-rays",
+    "source": "mobile",
+    "sourceBox": [
+      711,
+      177,
+      750,
+      220
+    ],
+    "width": 39,
+    "height": 43,
+    "background": "white",
+    "polygon": null
+  },
+  {
+    "name": "lightbulb",
+    "source": "mobile",
+    "sourceBox": [
+      76,
+      1447,
+      117,
+      1501
+    ],
+    "width": 41,
+    "height": 54,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "logo-header",
+    "source": "mobile",
+    "sourceBox": [
+      52,
+      12,
+      232,
+      43
+    ],
+    "width": 180,
+    "height": 31,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "logo-footer",
+    "source": "mobile",
+    "sourceBox": [
+      353,
+      1893,
+      468,
+      1917
+    ],
+    "width": 115,
+    "height": 24,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "menu",
+    "source": "mobile",
+    "sourceBox": [
+      716,
+      4,
+      768,
+      57
+    ],
+    "width": 52,
+    "height": 53,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "button-arrow",
+    "source": "mobile",
+    "sourceBox": [
+      653,
+      661,
+      681,
+      689
+    ],
+    "width": 28,
+    "height": 28,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "closing-underline-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      211,
+      1578,
+      407,
+      1619
+    ],
+    "width": 196,
+    "height": 41,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "closing-rays-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      175,
+      1767,
+      647,
+      1814
+    ],
+    "width": 472,
+    "height": 47,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "closing-background-mobile",
+    "source": "mobile",
+    "sourceBox": [
+      0,
+      1640,
+      819,
+      1885
+    ],
+    "width": 819,
+    "height": 245,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "campus-caption-clean",
+    "source": "mobile",
+    "sourceBox": [
+      60,
+      278,
+      211,
+      352
+    ],
+    "width": 151,
+    "height": 74,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "step-one-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      108,
+      1377,
+      253,
+      1430
+    ],
+    "width": 145,
+    "height": 53,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "step-two-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      363,
+      1377,
+      555,
+      1430
+    ],
+    "width": 192,
+    "height": 53,
+    "background": "source-specific alpha; see scripts"
+  },
+  {
+    "name": "step-three-desktop",
+    "source": "desktop",
+    "sourceBox": [
+      658,
+      1377,
+      846,
+      1430
+    ],
+    "width": 188,
+    "height": 53,
+    "background": "source-specific alpha; see scripts"
+  }
+]

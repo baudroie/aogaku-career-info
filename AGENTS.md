@@ -13,3 +13,8 @@ Aoyama Gakuin student LINE information landing page. Keep the headline「まだ�
 
 ## Fidelity feedback — 2026-10-23
 Compare the approved master and actual browser side by side at the same width. Inspect every display glyph: weight, size, baseline, rotation, spacing and line breaks. Preserve full handdrawn underlines, three rays, clouds, loop arrows and curved CTA boundary. Uniformly rotated text is insufficient. The approved mobile reference is generated_images/exec-ed96bf80-79c3-4bb5-b1ec-dc4606dfcc9b.png in the parent workspace.
+
+The user requires continuing until reproduction fidelity is at least 98%. The earlier passed QA is withdrawn. Do not claim 98% without a defined and reproducible comparison; visible illustration, typography, and density differences remain blocking. Preserve functional live text and controls; do not substitute a screenshot of the page to inflate a metric.
+
+## Source extraction approved — 2026-10-23
+The user explicitly selected 「原画から直接切り出す（推奨）」. Use exact, individually extracted source headline/decorative/illustration assets instead of regenerated substitutes. Main headings retain accessible text; body, buttons and navigation stay live HTML. This supersedes the earlier preference for visible live heading glyphs. Never substitute a full-page screenshot or flatten the working controls.

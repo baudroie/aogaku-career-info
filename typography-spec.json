@@ -8,32 +8,32 @@
     },
     {
       "character": "だ",
-      "size_em": 0.98,
-      "offset_em": -0.015,
+      "size_em": 1,
+      "offset_em": 0.005,
       "rotation_deg": 1
     },
     {
       "character": "知",
-      "size_em": 1.02,
-      "offset_em": 0.01,
+      "size_em": 0.99,
+      "offset_em": -0.035,
       "rotation_deg": -2
     },
     {
       "character": "ら",
-      "size_em": 1,
-      "offset_em": -0.025,
+      "size_em": 0.98,
+      "offset_em": -0.06,
       "rotation_deg": 1
     },
     {
       "character": "な",
       "size_em": 0.98,
-      "offset_em": 0.015,
+      "offset_em": -0.1,
       "rotation_deg": -2
     },
     {
       "character": "い",
-      "size_em": 1.03,
-      "offset_em": -0.005,
+      "size_em": 0.99,
+      "offset_em": -0.12,
       "rotation_deg": 2
     }
   ],

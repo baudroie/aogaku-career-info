@@ -1,0 +1,335 @@
+{
+  "closing": {
+    "bottom": 1647.265625,
+    "buttonBottom": 1617.2734375
+  },
+  "cta": [
+    {
+      "h": 40,
+      "href": "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=e8Y1Ze",
+      "visible": true,
+      "w": 180.7109375,
+      "x": 715.9296875,
+      "y": 8.9921875
+    },
+    {
+      "h": 59.9921875,
+      "href": "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=e8Y1Ze",
+      "visible": true,
+      "w": 321.9921875,
+      "x": 311.00390625,
+      "y": 465.5625
+    },
+    {
+      "h": 59.9921875,
+      "href": "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=e8Y1Ze",
+      "visible": true,
+      "w": 355.7890625,
+      "x": 489.4765625,
+      "y": 1557.28125
+    }
+  ],
+  "headings": [
+    {
+      "h": 152.9921875,
+      "name": "まだ知らない選択肢を、いつもの毎日に。",
+      "outside": false,
+      "w": 605.9921875,
+      "x": 173.9921875,
+      "y": 135.9765625
+    },
+    {
+      "h": 48.9921875,
+      "name": "登録しておくと、こんな情報が届く。",
+      "outside": false,
+      "w": 600.9921875,
+      "x": 166.5,
+      "y": 638.96875
+    },
+    {
+      "h": 43.9921875,
+      "name": "IT業界を知る",
+      "outside": false,
+      "w": 224.9921875,
+      "x": 221.8359375,
+      "y": 731.9375
+    },
+    {
+      "h": 39.9921875,
+      "name": "就活のヒントを得る",
+      "outside": false,
+      "w": 314.9921875,
+      "x": 221.8359375,
+      "y": 918.9296875
+    },
+    {
+      "h": 84.9921875,
+      "name": "青学限定のセミナー・イベント",
+      "outside": false,
+      "w": 311.9921875,
+      "x": 221.8359375,
+      "y": 1128.9140625
+    },
+    {
+      "h": 108.9921875,
+      "name": "次のきっかけを、LINEから。",
+      "outside": false,
+      "w": 327.9921875,
+      "x": 88.7265625,
+      "y": 1490.0859375
+    }
+  ],
+  "height": 1705,
+  "images": [
+    {
+      "h": 15.296875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/button-arrow.webp",
+      "w": 15.296875,
+      "x": 868.9921875,
+      "y": 21.34375
+    },
+    {
+      "h": 269.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/tree-left.webp",
+      "w": 129.9921875,
+      "x": 0,
+      "y": 70.9765625
+    },
+    {
+      "h": 54.515625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/cloud-top.webp",
+      "w": 94.9921875,
+      "x": 820.328125,
+      "y": 123.9765625
+    },
+    {
+      "h": 42.15625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/cloud-low.webp",
+      "w": 69.9921875,
+      "x": 9.3359375,
+      "y": 318.9765625
+    },
+    {
+      "h": 124.10150146484376,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/loop-arrow.webp",
+      "w": 166.4644775390625,
+      "x": 75.81854248046875,
+      "y": 309.4219055175781
+    },
+    {
+      "h": 140.5637969970703,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/loop-arrow.webp",
+      "w": 173.435791015625,
+      "x": 753.6063232421875,
+      "y": 226.1907501220703
+    },
+    {
+      "h": 70.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/audience-desktop.webp",
+      "w": 354.9921875,
+      "x": 291.9921875,
+      "y": 70.9765625
+    },
+    {
+      "h": 152.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/hero-title-desktop.webp",
+      "w": 605.9921875,
+      "x": 173.9921875,
+      "y": 135.9765625
+    },
+    {
+      "h": 73.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/campus-caption-clean.webp",
+      "w": 150.9921875,
+      "x": 54.9921875,
+      "y": 373.9765625
+    },
+    {
+      "h": 197.703125,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/campus.webp",
+      "w": 392.2734375,
+      "x": -9.3359375,
+      "y": 403.7734375
+    },
+    {
+      "h": 386.46875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/students.webp",
+      "w": 373.59375,
+      "x": 635.125,
+      "y": 215.0078125
+    },
+    {
+      "h": 21.921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/button-arrow.webp",
+      "w": 21.921875,
+      "x": 594.30859375,
+      "y": 484.59375
+    },
+    {
+      "h": 48.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/information-title-desktop.webp",
+      "w": 600.9921875,
+      "x": 166.5,
+      "y": 638.96875
+    },
+    {
+      "h": 83.546875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/number-01.webp",
+      "w": 109.9921875,
+      "x": 37.359375,
+      "y": 736.9375
+    },
+    {
+      "h": 43.71875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/it-title-mobile.webp",
+      "w": 224.9921875,
+      "x": 221.8359375,
+      "y": 731.9375
+    },
+    {
+      "h": 189.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/info-it.webp",
+      "w": 317.9296875,
+      "x": 578.703125,
+      "y": 705.94921875
+    },
+    {
+      "h": 82.8671875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/number-02.webp",
+      "w": 118.9921875,
+      "x": 37.359375,
+      "y": 923.9296875
+    },
+    {
+      "h": 40.296875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/career-title-mobile.webp",
+      "w": 314.9921875,
+      "x": 221.8359375,
+      "y": 918.9296875
+    },
+    {
+      "h": 189.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/info-career.webp",
+      "w": 317.9296875,
+      "x": 578.703125,
+      "y": 899.44140625
+    },
+    {
+      "h": 87.4921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/number-03.webp",
+      "w": 124.9921875,
+      "x": 37.359375,
+      "y": 1132.9140625
+    },
+    {
+      "h": 84.890625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/events-title-mobile.webp",
+      "w": 311.9921875,
+      "x": 221.8359375,
+      "y": 1128.9140625
+    },
+    {
+      "h": 32.9140625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/lightbulb.webp",
+      "w": 24.9921875,
+      "x": 233.828125,
+      "y": 1303.1171875
+    },
+    {
+      "h": 234.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/info-events.webp",
+      "w": 331.2421875,
+      "x": 583.3828125,
+      "y": 1112.42578125
+    },
+    {
+      "h": 36.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-one.webp",
+      "w": 164.9921875,
+      "x": 56.1953125,
+      "y": 1381.9140625
+    },
+    {
+      "h": 33.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-arrow.webp",
+      "w": 32.5703125,
+      "x": 252.3046875,
+      "y": 1383.4140625
+    },
+    {
+      "h": 39.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-two.webp",
+      "w": 250.9921875,
+      "x": 316,
+      "y": 1380.4140625
+    },
+    {
+      "h": 33.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-arrow.webp",
+      "w": 32.5703125,
+      "x": 598.109375,
+      "y": 1383.4140625
+    },
+    {
+      "h": 40.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-three.webp",
+      "w": 215.9921875,
+      "x": 661.8046875,
+      "y": 1379.9140625
+    },
+    {
+      "h": 108.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/closing-title-desktop.webp",
+      "w": 327.9921875,
+      "x": 88.7265625,
+      "y": 1490.0859375
+    },
+    {
+      "h": 74.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/closing-tape-desktop.webp",
+      "w": 354.9921875,
+      "x": 489.875,
+      "y": 1471.8984375
+    },
+    {
+      "h": 21.921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/button-arrow.webp",
+      "w": 21.921875,
+      "x": 803.8125,
+      "y": 1576.3125
+    }
+  ],
+  "overflow": 0,
+  "width": 934
+}

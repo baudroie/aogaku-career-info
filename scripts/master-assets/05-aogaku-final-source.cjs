@@ -1,0 +1,14 @@
+const sharp=require(process.env.SHARP_MODULE || 'sharp');const fs=require('fs');const root=(process.env.MASTER_WORKSPACE || require('path').resolve(__dirname, '../../..'));const out=root+'/aogaku-career-info/public/assets/master';const mobile=root+'/generated_images/exec-ed96bf80-79c3-4bb5-b1ec-dc4606dfcc9b.png';const desktop=root+'/generated_images/exec-5c1628a2-673b-474f-9eb7-342d9f7cbab6.png';
+(async()=>{
+ await sharp(desktop).extract({left:292,top:70,width:355,height:71}).webp({lossless:true}).toFile(out+'/audience-desktop.webp');
+ for(const[n,src,x,y,w,h,mode]of [['hero-title-desktop',desktop,174,135,606,153,'remove-yellow'],['closing-title-mobile',mobile,266,1684,289,83,'remove-yellow'],['closing-underline-mobile',mobile,413,1751,95,25,'yellow-only'],['closing-underline-desktop',desktop,211,1578,196,41,'yellow-only'],['closing-rays-mobile',mobile,175,1767,472,47,'orange-only'],['closing-tape-mobile',mobile,175,1767,472,47,'remove-orange'],['closing-tape-desktop',desktop,445,1466,355,75,'keep']]){
+  const {data}=await sharp(src).extract({left:x,top:y,width:w,height:h}).ensureAlpha().raw().toBuffer({resolveWithObject:true});for(let i=0;i<data.length;i+=4){const r=data[i],g=data[i+1],b=data[i+2],yellow=r>150&&g>135&&b<155,orange=r>150&&g<160&&b<100,dark=Math.max(r,g,b)<110;
+   if(mode==='remove-yellow'&&yellow||mode==='yellow-only'&&!yellow||mode==='orange-only'&&!orange||mode==='remove-orange'&&orange)data[i+3]=0;
+   if(mode==='remove-orange'&&dark){const px=(i/4)%w,py=Math.floor(i/4/w);const gx=px+x,gy=py+y;const top=1778-(gx-225)*12/366,bottom=1815-(gx-226)*11/366;if(gx<225||gx>593||gy<top||gy>bottom)data[i+3]=0;}
+  }await sharp(data,{raw:{width:w,height:h,channels:4}}).webp({lossless:true}).toFile(out+'/'+n+'.webp');
+ }
+ const w=819,h=245;const{data}=await sharp(mobile).extract({left:0,top:1640,width:w,height:h}).ensureAlpha().raw().toBuffer({resolveWithObject:true});
+ const seen=new Uint8Array(w*42),q=new Int32Array(w*42);let hd=0,tl=0;for(let x=0;x<w;x++){const i=41*w+x;seen[i]=1;q[tl++]=i;}while(hd<tl){const p=q[hd++],x=p%w,y=Math.floor(p/w);for(const[xx,yy]of[[x-1,y],[x+1,y],[x,y-1],[x,y+1]]){if(xx<0||xx>=w||yy<0||yy>41)continue;const k=yy*w+xx;if(!seen[k]&&Math.max(data[k*4],data[k*4+1],data[k*4+2])<120){seen[k]=1;q[tl++]=k;}}}
+ for(let y=0;y<h;y++){const values=[[],[],[]];for(let x=0;x<w;x++){const k=(y*w+x)*4;if(Math.max(data[k],data[k+1],data[k+2])<75)for(let c=0;c<3;c++)values[c].push(data[k+c]);}const median=values.map(v=>v.length?v.sort((a,b)=>a-b)[Math.floor(v.length/2)]:32);for(let x=0;x<w;x++){const i=y*w+x,k=i*4;if(y<42&&!seen[i]){data[k+3]=0;continue;}for(let c=0;c<3;c++)data[k+c]=median[c];}}
+ await sharp(data,{raw:{width:w,height:h,channels:4}}).webp({lossless:true}).toFile(out+'/closing-background-mobile.webp');console.log('Source curve and separate animated strokes extracted');
+})();

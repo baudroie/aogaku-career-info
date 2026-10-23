@@ -1,0 +1,359 @@
+{
+  "closing": {
+    "bottom": 897.59375,
+    "buttonBottom": 894.2578125
+  },
+  "cta": [
+    {
+      "h": 0,
+      "href": "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=e8Y1Ze",
+      "visible": false,
+      "w": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "h": 33.8046875,
+      "href": "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=e8Y1Ze",
+      "visible": true,
+      "w": 287.6171875,
+      "x": 51.1875,
+      "y": 304.1796875
+    },
+    {
+      "h": 30,
+      "href": "https://s.lmes.jp/landing-qr/1657893371-rRVdmjzQ?uLand=e8Y1Ze",
+      "visible": true,
+      "w": 311.421875,
+      "x": 39.5234375,
+      "y": 864.2578125
+    }
+  ],
+  "headings": [
+    {
+      "h": 94.28125,
+      "name": "まだ知らない選択肢を、いつもの毎日に。",
+      "outside": false,
+      "w": 192.8515625,
+      "x": 100,
+      "y": 52.8515625
+    },
+    {
+      "h": 39.5234375,
+      "name": "登録しておくと、こんな情報が届く。",
+      "outside": false,
+      "w": 197.6171875,
+      "x": 96.1875,
+      "y": 366.65625
+    },
+    {
+      "h": 19.5234375,
+      "name": "IT業界を知る",
+      "outside": false,
+      "w": 100.46875,
+      "x": 79.9921875,
+      "y": 418.078125
+    },
+    {
+      "h": 18.09375,
+      "name": "就活のヒントを得る",
+      "outside": false,
+      "w": 141.421875,
+      "x": 79.9921875,
+      "y": 515.6953125
+    },
+    {
+      "h": 38.09375,
+      "name": "青学限定のセミナー・イベント",
+      "outside": false,
+      "w": 140,
+      "x": 82.8515625,
+      "y": 602.8359375
+    },
+    {
+      "h": 39.5234375,
+      "name": "次のきっかけを、LINEから。",
+      "outside": false,
+      "w": 137.6171875,
+      "x": 126.6640625,
+      "y": 801.875
+    }
+  ],
+  "height": 914,
+  "images": [
+    {
+      "h": 14.757811546325684,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/logo-header.webp",
+      "w": 85.7109375,
+      "x": 24.7578125,
+      "y": 5.215401649475098
+    },
+    {
+      "h": 25.234375,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/menu.webp",
+      "w": 24.7578125,
+      "x": 340.9609375,
+      "y": 1.4017857313156128
+    },
+    {
+      "h": 111.421875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/tree-left.webp",
+      "w": 57.140625,
+      "x": 0,
+      "y": 41.8984375
+    },
+    {
+      "h": 31.421875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/cloud-top.webp",
+      "w": 54.7578125,
+      "x": 307.6171875,
+      "y": 48.5625
+    },
+    {
+      "h": 23.8046875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/cloud-low.webp",
+      "w": 39.5234375,
+      "x": 319.5234375,
+      "y": 112.8515625
+    },
+    {
+      "h": 36.1875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/audience-mobile.webp",
+      "w": 182.375,
+      "x": 100.46875,
+      "y": 18.5703125
+    },
+    {
+      "h": 94.28125,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/hero-title-mobile.webp",
+      "w": 192.8515625,
+      "x": 100,
+      "y": 52.8515625
+    },
+    {
+      "h": 157.140625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/hero-scene.webp",
+      "w": 390,
+      "x": 0,
+      "y": 111.8984375
+    },
+    {
+      "h": 35.234375,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/campus-caption-clean.webp",
+      "w": 71.8984375,
+      "x": 28.5703125,
+      "y": 132.375
+    },
+    {
+      "h": 16.6640625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/hero-rays-left.webp",
+      "w": 15.234375,
+      "x": 55.234375,
+      "y": 111.421875
+    },
+    {
+      "h": 22.375,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/hero-rays-right.webp",
+      "w": 16.1875,
+      "x": 298.5703125,
+      "y": 133.8046875
+    },
+    {
+      "h": 20.46875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/cloud-rays.webp",
+      "w": 18.5703125,
+      "x": 338.5703125,
+      "y": 84.28125
+    },
+    {
+      "h": 13.3515625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/button-arrow.webp",
+      "w": 13.3515625,
+      "x": 312.3671875,
+      "y": 314.3984375
+    },
+    {
+      "h": 43.328125,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/information-title-mobile.webp",
+      "w": 197.6171875,
+      "x": 96.1875,
+      "y": 364.28125
+    },
+    {
+      "h": 37.6171875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/number-01.webp",
+      "w": 49.5234375,
+      "x": 20.9453125,
+      "y": 406.6484375
+    },
+    {
+      "h": 19.515625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/it-title-mobile.webp",
+      "w": 100.46875,
+      "x": 79.9921875,
+      "y": 418.078125
+    },
+    {
+      "h": 85.7109375,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/info-it.webp",
+      "w": 168.5703125,
+      "x": 199.9921875,
+      "y": 412.3671875
+    },
+    {
+      "h": 37.1328125,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/number-02.webp",
+      "w": 53.328125,
+      "x": 20.9453125,
+      "y": 504.7421875
+    },
+    {
+      "h": 18.09375,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/career-title-mobile.webp",
+      "w": 141.421875,
+      "x": 79.9921875,
+      "y": 515.6953125
+    },
+    {
+      "h": 80.46875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/info-career.webp",
+      "w": 152.375,
+      "x": 219.9921875,
+      "y": 514.265625
+    },
+    {
+      "h": 39.9921875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/number-03.webp",
+      "w": 57.140625,
+      "x": 20.953125,
+      "y": 600.453125
+    },
+    {
+      "h": 38.09375,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/events-title-mobile.webp",
+      "w": 140,
+      "x": 82.8515625,
+      "y": 602.8359375
+    },
+    {
+      "h": 25.7109375,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/lightbulb.webp",
+      "w": 19.5234375,
+      "x": 36.65625,
+      "y": 687.5859375
+    },
+    {
+      "h": 90.46875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/info-events.webp",
+      "w": 142.375,
+      "x": 229.5234375,
+      "y": 611.8828125
+    },
+    {
+      "h": 17.6171875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-one.webp",
+      "w": 78.5703125,
+      "x": 156.6640625,
+      "y": 726.1640625
+    },
+    {
+      "h": 10.9453125,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-arrow.webp",
+      "w": 11.421875,
+      "x": 188.5703125,
+      "y": 741.40625
+    },
+    {
+      "h": 19.046875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-two.webp",
+      "w": 119.5234375,
+      "x": 135.234375,
+      "y": 749.5
+    },
+    {
+      "h": 10.9453125,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-arrow.webp",
+      "w": 11.421875,
+      "x": 188.5703125,
+      "y": 765.6875
+    },
+    {
+      "h": 19.515625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/step-three.webp",
+      "w": 102.8515625,
+      "x": 143.328125,
+      "y": 774.265625
+    },
+    {
+      "h": 39.515625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/closing-title-mobile.webp",
+      "w": 137.6171875,
+      "x": 126.6640625,
+      "y": 801.875
+    },
+    {
+      "h": 22.375,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/closing-tape-mobile.webp",
+      "w": 224.7578125,
+      "x": 83.328125,
+      "y": 841.3984375
+    },
+    {
+      "h": 13.3515625,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/button-arrow.webp",
+      "w": 13.3515625,
+      "x": 324.5078125,
+      "y": 872.578125
+    },
+    {
+      "h": 22.375,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/closing-rays-mobile.webp",
+      "w": 224.7578125,
+      "x": 83.328125,
+      "y": 841.3984375
+    },
+    {
+      "h": 11.421875,
+      "loaded": true,
+      "src": "http://127.0.0.1:8771/assets/master/logo-footer.webp",
+      "w": 54.7578125,
+      "x": 167.6171875,
+      "y": 901.4014282226562
+    }
+  ],
+  "overflow": 0,
+  "width": 390
+}
