@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+qa/
+public/assets/*.png
+!public/assets/favicon.png
+!public/assets/handdrawn-mark.png
+!public/assets/ogp.png
