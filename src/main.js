@@ -13,7 +13,7 @@ if('IntersectionObserver'in window&&!reduceMotion.matches){
  const targets=[...document.querySelectorAll('.hero-title-block,.note-career,.closing-inner')];
  document.querySelector('.note-career').classList.add('float-once');document.querySelector('.closing-inner').classList.add('reveal-once');
  const observer=new IntersectionObserver(entries=>{for(const entry of entries){const target=entry.target;if(entry.isIntersecting&&!target.classList.contains('motion-done'))target.classList.add('is-playing');target.classList.toggle('motion-paused',!entry.isIntersecting);}},{threshold:.15});
- for(const target of targets){observer.observe(target);target.addEventListener('animationend',()=>{target.classList.add('motion-done');observer.unobserve(target);},{once:true});}
+ for(const target of targets){observer.observe(target);const finish=event=>{if(target.classList.contains('reveal-once')&&event.animationName!=='draw-in')return;target.classList.add('motion-done');observer.unobserve(target);target.removeEventListener('animationend',finish);};target.addEventListener('animationend',finish);}
  document.addEventListener('visibilitychange',()=>document.documentElement.classList.toggle('tab-hidden',document.hidden));
  reduceMotion.addEventListener('change',event=>{if(event.matches){observer.disconnect();document.documentElement.classList.remove('motion-ready');}});
 }

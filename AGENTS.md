@@ -10,3 +10,6 @@ Build app UI in `src/`. Keep `.openai/hosting.json`, `worker/index.js`, `scripts
 
 ## Approved design
 Aoyama Gakuin student LINE information landing page. Keep the headline「まだ知らない選択肢を、いつもの毎日に。」, orange/black/yellow palette, Majima Memorial Hall illustration and student figures. No Inaba profile or OB/OG visit pitch. The mobile design was approved on 2026-10-23.
+
+## Fidelity feedback — 2026-10-23
+Compare the approved master and actual browser side by side at the same width. Inspect every display glyph: weight, size, baseline, rotation, spacing and line breaks. Preserve full handdrawn underlines, three rays, clouds, loop arrows and curved CTA boundary. Uniformly rotated text is insufficient. The approved mobile reference is generated_images/exec-ed96bf80-79c3-4bb5-b1ec-dc4606dfcc9b.png in the parent workspace.

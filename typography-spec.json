@@ -1,0 +1,512 @@
+{
+  "まだ知らない": [
+    {
+      "character": "ま",
+      "size_em": 1.04,
+      "offset_em": 0.025,
+      "rotation_deg": -3
+    },
+    {
+      "character": "だ",
+      "size_em": 0.98,
+      "offset_em": -0.015,
+      "rotation_deg": 1
+    },
+    {
+      "character": "知",
+      "size_em": 1.02,
+      "offset_em": 0.01,
+      "rotation_deg": -2
+    },
+    {
+      "character": "ら",
+      "size_em": 1,
+      "offset_em": -0.025,
+      "rotation_deg": 1
+    },
+    {
+      "character": "な",
+      "size_em": 0.98,
+      "offset_em": 0.015,
+      "rotation_deg": -2
+    },
+    {
+      "character": "い",
+      "size_em": 1.03,
+      "offset_em": -0.005,
+      "rotation_deg": 2
+    }
+  ],
+  "選択肢": [
+    {
+      "character": "選",
+      "size_em": 1.03,
+      "offset_em": 0.01,
+      "rotation_deg": -2
+    },
+    {
+      "character": "択",
+      "size_em": 1.01,
+      "offset_em": -0.015,
+      "rotation_deg": 1
+    },
+    {
+      "character": "肢",
+      "size_em": 1.04,
+      "offset_em": 0.005,
+      "rotation_deg": -1
+    }
+  ],
+  "を、": [
+    {
+      "character": "を",
+      "size_em": 0.96,
+      "offset_em": 0.025,
+      "rotation_deg": 3
+    },
+    {
+      "character": "、",
+      "size_em": 0.88,
+      "offset_em": 0.1,
+      "rotation_deg": -4
+    }
+  ],
+  "いつもの毎日に。": [
+    {
+      "character": "い",
+      "size_em": 1.02,
+      "offset_em": 0.025,
+      "rotation_deg": -4
+    },
+    {
+      "character": "つ",
+      "size_em": 0.98,
+      "offset_em": -0.015,
+      "rotation_deg": 2
+    },
+    {
+      "character": "も",
+      "size_em": 1.02,
+      "offset_em": 0.01,
+      "rotation_deg": -1
+    },
+    {
+      "character": "の",
+      "size_em": 0.98,
+      "offset_em": 0.015,
+      "rotation_deg": 1
+    },
+    {
+      "character": "毎",
+      "size_em": 1.04,
+      "offset_em": -0.025,
+      "rotation_deg": -2
+    },
+    {
+      "character": "日",
+      "size_em": 1.01,
+      "offset_em": 0.015,
+      "rotation_deg": 1
+    },
+    {
+      "character": "に",
+      "size_em": 0.97,
+      "offset_em": 0.02,
+      "rotation_deg": 2
+    },
+    {
+      "character": "。",
+      "size_em": 0.8,
+      "offset_em": 0.1,
+      "rotation_deg": -2
+    }
+  ],
+  "登録しておくと、": [
+    {
+      "character": "登",
+      "size_em": 1.02,
+      "offset_em": 0.01,
+      "rotation_deg": -2
+    },
+    {
+      "character": "録",
+      "size_em": 1,
+      "offset_em": -0.01,
+      "rotation_deg": 1
+    },
+    {
+      "character": "し",
+      "size_em": 0.98,
+      "offset_em": 0.015,
+      "rotation_deg": 0
+    },
+    {
+      "character": "て",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": -1
+    },
+    {
+      "character": "お",
+      "size_em": 0.98,
+      "offset_em": -0.01,
+      "rotation_deg": 1
+    },
+    {
+      "character": "く",
+      "size_em": 1.02,
+      "offset_em": 0.015,
+      "rotation_deg": -1
+    },
+    {
+      "character": "と",
+      "size_em": 1,
+      "offset_em": 0,
+      "rotation_deg": 1
+    },
+    {
+      "character": "、",
+      "size_em": 0.9,
+      "offset_em": 0.05,
+      "rotation_deg": -1
+    }
+  ],
+  "こんな情報が届く。": [
+    {
+      "character": "こ",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": -1
+    },
+    {
+      "character": "ん",
+      "size_em": 0.98,
+      "offset_em": 0,
+      "rotation_deg": 1
+    },
+    {
+      "character": "な",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": -1
+    },
+    {
+      "character": "情",
+      "size_em": 1.02,
+      "offset_em": -0.01,
+      "rotation_deg": 0
+    },
+    {
+      "character": "報",
+      "size_em": 1.02,
+      "offset_em": 0.005,
+      "rotation_deg": 1
+    },
+    {
+      "character": "が",
+      "size_em": 0.98,
+      "offset_em": 0.015,
+      "rotation_deg": -1
+    },
+    {
+      "character": "届",
+      "size_em": 1.02,
+      "offset_em": -0.015,
+      "rotation_deg": 0
+    },
+    {
+      "character": "く",
+      "size_em": 0.98,
+      "offset_em": 0.01,
+      "rotation_deg": 1
+    },
+    {
+      "character": "。",
+      "size_em": 0.85,
+      "offset_em": 0.05,
+      "rotation_deg": 0
+    }
+  ],
+  "IT業界を知る": [
+    {
+      "character": "I",
+      "size_em": 1,
+      "offset_em": 0,
+      "rotation_deg": -1
+    },
+    {
+      "character": "T",
+      "size_em": 1,
+      "offset_em": 0,
+      "rotation_deg": 0
+    },
+    {
+      "character": "業",
+      "size_em": 1.02,
+      "offset_em": 0.015,
+      "rotation_deg": -1
+    },
+    {
+      "character": "界",
+      "size_em": 1,
+      "offset_em": -0.01,
+      "rotation_deg": 1
+    },
+    {
+      "character": "を",
+      "size_em": 0.97,
+      "offset_em": 0.02,
+      "rotation_deg": 0
+    },
+    {
+      "character": "知",
+      "size_em": 1.02,
+      "offset_em": -0.01,
+      "rotation_deg": -1
+    },
+    {
+      "character": "る",
+      "size_em": 0.98,
+      "offset_em": 0.01,
+      "rotation_deg": 1
+    }
+  ],
+  "就活のヒントを得る": [
+    {
+      "character": "就",
+      "size_em": 1.02,
+      "offset_em": 0,
+      "rotation_deg": -1
+    },
+    {
+      "character": "活",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": 1
+    },
+    {
+      "character": "の",
+      "size_em": 0.97,
+      "offset_em": 0.015,
+      "rotation_deg": -1
+    },
+    {
+      "character": "ヒ",
+      "size_em": 1,
+      "offset_em": -0.01,
+      "rotation_deg": 0
+    },
+    {
+      "character": "ン",
+      "size_em": 0.98,
+      "offset_em": 0.005,
+      "rotation_deg": 1
+    },
+    {
+      "character": "ト",
+      "size_em": 0.98,
+      "offset_em": 0.015,
+      "rotation_deg": -1
+    },
+    {
+      "character": "を",
+      "size_em": 0.97,
+      "offset_em": 0.02,
+      "rotation_deg": 1
+    },
+    {
+      "character": "得",
+      "size_em": 1.02,
+      "offset_em": -0.01,
+      "rotation_deg": 0
+    },
+    {
+      "character": "る",
+      "size_em": 0.98,
+      "offset_em": 0.01,
+      "rotation_deg": 1
+    }
+  ],
+  "青学限定の": [
+    {
+      "character": "青",
+      "size_em": 1.02,
+      "offset_em": 0,
+      "rotation_deg": -1
+    },
+    {
+      "character": "学",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": 1
+    },
+    {
+      "character": "限",
+      "size_em": 1.02,
+      "offset_em": -0.01,
+      "rotation_deg": -1
+    },
+    {
+      "character": "定",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": 0
+    },
+    {
+      "character": "の",
+      "size_em": 0.97,
+      "offset_em": 0.02,
+      "rotation_deg": 1
+    }
+  ],
+  "セミナー・イベント": [
+    {
+      "character": "セ",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": -1
+    },
+    {
+      "character": "ミ",
+      "size_em": 0.98,
+      "offset_em": 0,
+      "rotation_deg": 1
+    },
+    {
+      "character": "ナ",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": -1
+    },
+    {
+      "character": "ー",
+      "size_em": 0.98,
+      "offset_em": 0,
+      "rotation_deg": 0
+    },
+    {
+      "character": "・",
+      "size_em": 0.88,
+      "offset_em": 0.01,
+      "rotation_deg": 0
+    },
+    {
+      "character": "イ",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": 1
+    },
+    {
+      "character": "ベ",
+      "size_em": 0.98,
+      "offset_em": 0,
+      "rotation_deg": -1
+    },
+    {
+      "character": "ン",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": 1
+    },
+    {
+      "character": "ト",
+      "size_em": 0.98,
+      "offset_em": 0.01,
+      "rotation_deg": 0
+    }
+  ],
+  "次のきっかけを、": [
+    {
+      "character": "次",
+      "size_em": 1.04,
+      "offset_em": 0.01,
+      "rotation_deg": -3
+    },
+    {
+      "character": "の",
+      "size_em": 0.98,
+      "offset_em": 0.025,
+      "rotation_deg": 2
+    },
+    {
+      "character": "き",
+      "size_em": 1.02,
+      "offset_em": -0.01,
+      "rotation_deg": -2
+    },
+    {
+      "character": "っ",
+      "size_em": 0.9,
+      "offset_em": 0.05,
+      "rotation_deg": 1
+    },
+    {
+      "character": "か",
+      "size_em": 1.01,
+      "offset_em": 0.005,
+      "rotation_deg": -1
+    },
+    {
+      "character": "け",
+      "size_em": 1.02,
+      "offset_em": 0.02,
+      "rotation_deg": 2
+    },
+    {
+      "character": "を",
+      "size_em": 0.98,
+      "offset_em": 0.025,
+      "rotation_deg": -1
+    },
+    {
+      "character": "、",
+      "size_em": 0.8,
+      "offset_em": 0.1,
+      "rotation_deg": 1
+    }
+  ],
+  "LINEから。": [
+    {
+      "character": "L",
+      "size_em": 1,
+      "offset_em": 0.015,
+      "rotation_deg": -1
+    },
+    {
+      "character": "I",
+      "size_em": 1,
+      "offset_em": -0.01,
+      "rotation_deg": 0
+    },
+    {
+      "character": "N",
+      "size_em": 1.02,
+      "offset_em": 0.01,
+      "rotation_deg": 1
+    },
+    {
+      "character": "E",
+      "size_em": 1,
+      "offset_em": -0.01,
+      "rotation_deg": -1
+    },
+    {
+      "character": "か",
+      "size_em": 1,
+      "offset_em": 0.01,
+      "rotation_deg": -2
+    },
+    {
+      "character": "ら",
+      "size_em": 0.98,
+      "offset_em": 0.02,
+      "rotation_deg": 1
+    },
+    {
+      "character": "。",
+      "size_em": 0.8,
+      "offset_em": 0.09,
+      "rotation_deg": 1
+    }
+  ]
+}
