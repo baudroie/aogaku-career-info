@@ -49,3 +49,19 @@ The browser and Codex app tools returned `Transport closed`, including inventory
 The Image to Code skill requires: “If source capture, prototype capture, or visual comparison is blocked, stop.” Source: skill://product-design@openai-curated-remote/Users/baudroie/.codex/plugins/cache/openai-curated-remote/product-design/0.1.56/skills/image-to-code/SKILL.md
 
 This iteration is preserved for review and continuation, not certified as complete. Reconnect the browser, capture the latest build, reduce the remaining differences and rerun the outstanding checks before merging/publishing as the completed version.
+
+## Retry checkpoint — 2026-10-23 (Japan)
+
+final result: blocked
+
+The browser reconnected and the existing source-asset version was recaptured. The local preview server had stopped and was restarted. A new comparison tab initially had a 1280 × 720 viewport; its offscreen CTA rays correctly paused. After restoring the requested 1651 × 1970 comparison viewport, the closing group reached motion-done and the rays completed. The completed same-browser capture was saved locally as qa/fidelity/retry-compare-2.png.
+
+Using the unchanged full-page RGB formula and rectangles, the score is **96.23516809382822%**. It is still below 98%; this value describes the version before the latest CSS refinements.
+
+Live font specimens were rendered and captured to compare button and body glyphs. Based on those comparisons, the latest source CSS adjusts the mobile paper color, header border, registration text position, button font stack/size, first and second body-copy sizes/positions, event example label size, orange button color and an extra divider. Original heading assets and individual glyph transforms remain unchanged. Hiragino uses the system-installed font where available, with the bundled Noto fallback; cross-platform differences remain to be checked.
+
+The updated source built successfully (Vite 6.4.2). Before its new comparison could be captured, the browser returned Transport closed again, and the execution environment changed to unavailable. Browser tools were then removed. No screenshot, score, reduced-motion, no-JS or final responsive pass is claimed for these latest refinements.
+
+This commit preserves the **source CSS** and this progress record only. The docs/ build remains the preceding checkpoint and has not been deployed. Rebuild from source before resuming QA. The existing public main branch remains unchanged. No reference-bearing comparison images are uploaded.
+
+Resume: restore the workspace/browser, rebuild, recapture at the same width and density, compare the latest source, continue correcting the remaining differences, then complete 320/390/768/1440px, no-JS, reduced-motion, menu, anchor, focus and console checks. Do not publish as 98%-complete until the requirement is verified.

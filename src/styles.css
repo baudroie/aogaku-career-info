@@ -316,3 +316,25 @@
  .steps>img:nth-of-type(1){left:calc(50% - 182 * var(--u))}.steps>img:nth-of-type(2){left:calc(50% + 116 * var(--u))}
  .steps::before{left:calc(50% - 399 * var(--u))}.steps::after{right:calc(50% - 411 * var(--u))}
 }
+
+/* Refine live copy against native source bounds; original headline assets stay unchanged. */
+@media(max-width:600px){
+ body,.hero,.hero-register,.steps{background-color:#fefefc}
+ .site-header,.site-footer{background-color:#fefefe}
+ .site-header{border-bottom-width:calc(1 * var(--m))}
+ .hero-register{top:calc(514 * var(--m))}
+ .hero-lead,.line-button{font-family:'Hiragino Kaku Gothic ProN',Noto,sans-serif;font-weight:700}
+ .hero-lead{translate:calc(3 * var(--m)) calc(-1 * var(--m))}
+ .hero-register .line-button{font-size:calc(29 * var(--m))}
+ .hero-register .line-button>span:first-child{transform:translate(calc(-2 * var(--m)),calc(-4 * var(--m))) scaleY(.965)}
+ .register-hint{font-size:calc(18 * var(--m));margin-top:calc(4 * var(--m));translate:calc(1 * var(--m)) 0}
+ .info-row:first-of-type .info-copy>p{font-size:calc(22.5 * var(--m));line-height:1.2444;translate:calc(1 * var(--m)) 0}
+ .info-row:nth-of-type(2) .info-copy>p{font-size:calc(22.5 * var(--m));line-height:1.28;translate:calc(3 * var(--m)) calc(1 * var(--m))}
+ .event-row .info-copy>p{font-size:calc(22 * var(--m))}
+ .event-row .theme-examples span{font-size:1em;margin:0}
+ .event-row .theme-examples>div{translate:calc(-3 * var(--m)) calc(-1 * var(--m))}
+ .closing-action .line-button{background:#fd4a01;font-size:calc(27.5 * var(--m))}
+ .closing-action .line-button>span:first-child{transform:translate(calc(2 * var(--m)),calc(-1 * var(--m)))}
+ .hero-register .arrow-circle{background:#fd4a01}
+ .info-row:nth-of-type(2){border-bottom:0}
+}
