@@ -21,3 +21,6 @@ The user explicitly selected 「原画から直接切り出す（推奨）」. U
 
 ## Hero cleanup — 2026-10-24
 The user flagged the desktop campus area: keep the original campus caption/underline/curved arrow, remove the extra loop crossing that caption, and mask unrelated crop fragments around the cloud and headline. Do not change the approved glyph shapes or mobile composition.
+
+## Native code and marker redesign — 2026-10-24
+The user explicitly supersedes raster source extraction: render all visible headings, logo, labels, numbers, icons and simple decoration in HTML/CSS/SVG, with live readable text at every breakpoint. Keep illustrations as high-resolution assets. Replace the yellow marker/sticky-note treatment around IT/career/event callouts with restrained orange rules and open typography. Retain the orange/black character, campus imagery, right-aligned fixed header, existing LINE destination and accessible interactions. This intentional redesign supersedes the earlier 98% pixel-matching target for the replaced elements.

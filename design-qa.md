@@ -1,40 +1,49 @@
-# Design QA — publication retry, 2026-10-23
+# 青学向け情報LP — コード化・装飾見直し
 
-## Status
-Review release requested by the user. The 98% fidelity target remains OPEN. Do not label this release as 98% complete.
+確認日: 2026-10-24
+公開先: https://baudroie.github.io/aogaku-career-info/
+比較元: b895324dcab2a3e4a83cea653750787fc10df464
 
-## Design changes
-Individually extracted original headings, campus/student illustrations, benefit artwork, tape, numbers, clouds, rays, arrows and strokes replace approximations. Accessible heading names remain; body, buttons, menu and navigation remain live HTML. Source audit: review/source-asset-audit.csv (52 original crops, opaque RGB unchanged; not a page fidelity score).
-Latest CSS refines mobile body/button type, baseline/spacing and orange tone. It restores the audience tape above the Hero boundary and the curved closing boundary. The Hero lead no longer produces a 1px horizontal overflow. Desktop navigation remains right aligned. No Inaba profile, OB/OG pitch or obsolete individual employee links.
+## 今回の変更
+ユーザーの新しい指示に従い、原画を小さく切り出して拡大する方法をやめ、文字・UI・単純な装飾をHTML/CSS/SVGで再構成。今回変更した要素は旧マスターとのピクセル一致を目的としない。
 
-## Measured comparison
-Approved mobile source: 819 × 1920. Actual browser: 390 CSS px scaled by 2.1, beside the source at native size.
-Full-page, unfiltered RGB comparison: **96.89095489810359%**.
-Formula: 100 * (1 - mean(abs(reference RGB - actual RGB)) / 255).
-Capture: local qa/fidelity/publish-native-comparison.png. Reference rectangle (0,28)-(819,1948); actual rectangle (832,28)-(1651,1948). Both initial animations completed before capture. No blur, ignored areas, or score selection.
-The screenshot containing the full master is retained locally and is not published.
-Live body/button glyph shapes and subtle background/edge rendering still differ. This scalar is not proof of perceptual equivalence. The final campus desktop master is unavailable; no desktop 98% claim. Platform fonts can differ.
+- Hero、情報セクション、CTAの全見出しを、選択・拡大できるテキストへ変更。
+- HeroとCTAの一文字ごとの静的なサイズ、位置、傾きは既存のdisplay-glyph指定を継承。文字はアニメーションさせない。
+- ブランド表記、学生限定ラベル、01〜03、ステップ、校舎キャプションをライブテキスト化。
+- ボタンの矢印、下線、雲、軌道、3本線をCSS/SVG化。画像マスクを撤去。
+- 黄色いマーカー状の案内を、オレンジの短い線、小さな分類ラベル、白地の文字へ変更。スマホは3列で整理。
+- 校舎・人物・情報イラストは高解像度の既存素材を使用。ラスター素材はこの5点のみ。img要素は38個から6個（うち1個はSVGアイコン）に削減。
+- レスポンシブCSSを整理し、上書きの重複を解消。768pxで確認された校舎キャプションの重なりを修正。
 
-## Real browser verification
-Production bundle: index-BznV6cmf.css / index-Ue6QpZbe.js.
-320 / 390 / 768 / 1440 CSS px:
-- Horizontal overflow 0; all six headings inside viewport.
-- All images loaded; screenshots visually inspected for clipped text and text/illustration collisions.
-- Header remains sticky; no header entrance animation.
-390px interactions: menu opens, Escape closes and restores focus with a 3px outline; event anchor closes menu, reaches #events, header top remains 0.
-All three LINE CTA hrefs retain the existing LMessage destination ending uLand=e8Y1Ze. No registration or message submitted.
-Clean standalone desktop tab: no console errors observed.
-JavaScript-removed fixture: zero scripts, all images loaded, six headings and CTA content visible. Reduced-motion fixture: preference branch forced true and matching CSS rules activated; completed state visible, motion-ready absent, overflow 0. This is a branch test, not an OS preference or physical-phone test.
-Latest build passed; all four existing Sites worker tests passed. These are packaging tests, not fidelity tests.
-Actual pointer-hover testing and physical devices remain unverified.
+## 動きと操作
+- Heroの下線: 初回に600msで左から描画。
+- CTA注釈の下線: 画面内に入った初回に150ms遅延＋600msで描画。
+- 雲・軌道のみ: 最大4px/2度、4秒以内で静止。スマホは2px/1度。背景装飾の不透明度は18%。
+- ホバー: ボタン上2px、矢印右3px、200ms。スマホ相当は半分。
+- IntersectionObserverで一度だけ開始し、画面外と非表示タブでは一時停止。
+- JSなしでも完成状態。prefers-reduced-motionでは描画・移動・スムーズスクロールを停止。
+- 右寄せのナビゲーション、固定ヘッダー、LINEの既存遷移先を維持。
 
-## Motion
-Hero underline: one 600ms drawing reveal. Closing group: short arrival, underline and rays 600ms after 400ms delay. Background note: one slow 3.6s movement. IntersectionObserver starts once; offscreen/hidden-tab motion pauses. Reduced motion exposes the completed state. Button hover CSS: 200ms, up 2px and arrow right 3px, reduced displacement on mobile. Display glyph transforms remain intact.
+## 実ブラウザーでの確認
+ChatGPT内ブラウザーで実際に描画して確認。
 
-## Publication contents
-Publish the functioning LP and its individual assets to the existing GitHub Pages repository. Exclude local QA fixtures, full-master comparison captures and unused generated candidates. This public review release does not close the fidelity target.
+| 幅 | 完成状態の横スクロール | 途中状態の横スクロール | 見出し・ラベル・CTAの見切れ |
+|---|---:|---:|---|
+| 320px | 0px | 0px | なし |
+| 390px | 0px | 0px | なし |
+| 768px | 0px | 0px | なし |
+| 1440px | 0px | 0px | なし |
 
+同じ画面幅の修正前後をqa/coded-design/before-*.png、after-*.pngとして保存。アニメーション途中は本番CSSのキーフレームを50%付近で停止したローカル専用ページで確認。実際のHero/CTA下線の開始・終了も通常ページで確認した。
 
-## Hero overlap correction — 2026-10-24
-User screenshot identified a thin loop crossing the campus caption, yellow neighboring crop remnants beside the IT note, and a dark fragment at the cloud's lower right. Removed only the extra left loop element. Preserved the original campus caption, underline and curved arrow. Added desktop-only clipping around the existing headline and lower cloud crops to hide unrelated adjacent artwork without redrawing their shapes. Mobile image geometry and glyph transforms are unchanged.
-Production bundle: index-Dsb_l0gc.css / index-DSZ2bBBk.js. Browser checks at 320,390,768,1440px: horizontal overflow 0, all headings within viewport, no extra left loop, clipping active only above 600px. Before/after inspected at 1440px. Build and four existing worker tests pass. No new page-level fidelity percentage claimed. Local evidence in qa/hero-cleanup/.
+- すべてのh1/h2/h3内の画像数: 0。
+- 画像の読み込み失敗: 0。
+- スマホメニューの開閉、リンク選択時の自動閉鎖、Escapeによる閉鎖とボタンへのフォーカス復帰を確認。
+- スクロール後のヘッダー上端: 0px。ページ内イベントリンク、登録エリアへのリンクを確認。
+- キーボードフォーカスのアウトラインを確認。
+- 3個の外部CTAすべてが既存の同一LINE URLを保持し、別タブ＋noopener noreferrerを維持。登録送信は実施していない。
+- JSなし・reduced-motionはローカル専用の検証ページで確認。前者はスクリプトを除去、後者は対象のmediaルールとJS分岐を強制適用。6見出し、画像、CTAが表示され、下線は完成状態、アニメーションはnone。OS設定を実際に変更したテストではない。
+- build成功。Sites用の既存パッケージングテスト4件成功（見た目のテストとは別）。
+
+変更対象: index.html / src/styles.css / src/main.js / AGENTS.md / docs内の公開用HTML・CSS・JS。
+検証専用HTMLと比較画像は公開ファイルに含めない。
