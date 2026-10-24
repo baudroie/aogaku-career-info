@@ -33,3 +33,8 @@ Hero underline: one 600ms drawing reveal. Closing group: short arrival, underlin
 
 ## Publication contents
 Publish the functioning LP and its individual assets to the existing GitHub Pages repository. Exclude local QA fixtures, full-master comparison captures and unused generated candidates. This public review release does not close the fidelity target.
+
+
+## Hero overlap correction — 2026-10-24
+User screenshot identified a thin loop crossing the campus caption, yellow neighboring crop remnants beside the IT note, and a dark fragment at the cloud's lower right. Removed only the extra left loop element. Preserved the original campus caption, underline and curved arrow. Added desktop-only clipping around the existing headline and lower cloud crops to hide unrelated adjacent artwork without redrawing their shapes. Mobile image geometry and glyph transforms are unchanged.
+Production bundle: index-Dsb_l0gc.css / index-DSZ2bBBk.js. Browser checks at 320,390,768,1440px: horizontal overflow 0, all headings within viewport, no extra left loop, clipping active only above 600px. Before/after inspected at 1440px. Build and four existing worker tests pass. No new page-level fidelity percentage claimed. Local evidence in qa/hero-cleanup/.

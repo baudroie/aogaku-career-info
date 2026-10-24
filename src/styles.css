@@ -349,3 +349,10 @@
  .info-row:nth-of-type(2) .info-copy>p{translate:calc(1 * var(--m)) calc(1 * var(--m))}
  .event-row .info-copy>p{font-size:calc(21.5 * var(--m));translate:0 0}
 }
+
+/* Keep adjacent source fragments outside the isolated hero artwork.
+   Coordinates follow the original 606x153 title and 83x50 cloud crops. */
+@media(min-width:601px){
+ .hero h1 .master-heading{clip-path:polygon(0 5%,53.5% 5%,53.5% 0,100% 0,100% 58%,88% 58%,88% 100%,12% 100%,12% 58%,0 58%)}
+ .cloud-low{clip-path:polygon(0 0,100% 0,100% 86%,90% 86%,90% 100%,0 100%)}
+}

@@ -18,3 +18,6 @@ The user requires continuing until reproduction fidelity is at least 98%. The ea
 
 ## Source extraction approved — 2026-10-23
 The user explicitly selected 「原画から直接切り出す（推奨）」. Use exact, individually extracted source headline/decorative/illustration assets instead of regenerated substitutes. Main headings retain accessible text; body, buttons and navigation stay live HTML. This supersedes the earlier preference for visible live heading glyphs. Never substitute a full-page screenshot or flatten the working controls.
+
+## Hero cleanup — 2026-10-24
+The user flagged the desktop campus area: keep the original campus caption/underline/curved arrow, remove the extra loop crossing that caption, and mask unrelated crop fragments around the cloud and headline. Do not change the approved glyph shapes or mobile composition.
