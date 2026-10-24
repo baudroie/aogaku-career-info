@@ -24,3 +24,6 @@ The user flagged the desktop campus area: keep the original campus caption/under
 
 ## Native code and marker redesign — 2026-10-24
 The user explicitly supersedes raster source extraction: render all visible headings, logo, labels, numbers, icons and simple decoration in HTML/CSS/SVG, with live readable text at every breakpoint. Keep illustrations as high-resolution assets. Replace the yellow marker/sticky-note treatment around IT/career/event callouts with restrained orange rules and open typography. Retain the orange/black character, campus imagery, right-aligned fixed header, existing LINE destination and accessible interactions. This intentional redesign supersedes the earlier 98% pixel-matching target for the replaced elements.
+
+## Approved speech-bubble direction — 2026-10-24
+The user rejected the thin orange rule callouts and selected the SECOND displayed generated option: exec-df475a81-ff22-4db1-81cb-97379262a5ad.png. This supersedes the open-typography callout preference. Use warm cream speech bubbles with orange outlines/offset edges for IT and career, and a solid orange/white event bubble. Keep live HTML text and scalable vector/CSS shapes; do not turn labels into raster images. Preserve the existing main headline, campus/student art, CTA destination and right-aligned sticky header.
