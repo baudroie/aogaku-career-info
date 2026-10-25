@@ -313,3 +313,44 @@ a:focus-visible,button:focus-visible{outline:3px solid #1680c0;outline-offset:5p
  .note-career{font-size:clamp(18px,2.6vw,20px)}
  .note-event{grid-column:auto;width:100%;font-size:clamp(21px,3.1vw,24px);margin-top:0}
 }
+
+/* Approved blue campus ribbon: live text and resolution-independent folds. */
+.audience-ribbon{display:block;width:min(700px,100%);aspect-ratio:720/132;margin:0 auto 8px;font-size:clamp(36px,3.75vw,54px);font-weight:900;line-height:1.2;letter-spacing:-.035em;isolation:isolate}
+.audience-ribbon::before,.audience-ribbon::after,.audience-ribbon>.audience-copy::after{content:none}
+.audience-ribbon-art{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.ribbon-face{fill:#155bb5}
+.ribbon-tail{fill:#1155ac}
+.ribbon-fold{fill:#0b397e}
+.ribbon-seam{fill:none;stroke:#fffefa;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.ribbon-rays{fill:none;stroke:var(--orange);stroke-width:4.5;stroke-linecap:round}
+.audience-ribbon>.audience-copy{position:absolute;inset:13% 10% 22%;display:flex;align-items:center;justify-content:center;gap:.12em;color:#fffefa;white-space:nowrap}
+.audience-university{font-size:1em;letter-spacing:-.025em}
+.audience-eligibility{font-size:.68em;letter-spacing:-.03em;padding-top:.1em}
+.note-it .bubble-rays{top:3%;right:8%;width:35px;height:43px}
+@media(min-width:801px){
+ .hero{padding-top:24px;min-height:820px}
+ .hero-register{margin-top:20px}
+ .note-it{top:295px}.note-career{top:125px}.note-event{top:295px}
+}
+@media(min-width:1600px){.hero{min-height:860px}.note-it{top:315px}.note-career{top:150px}.note-event{top:330px}}
+@media(min-width:801px) and (max-width:1100px){
+ .hero{min-height:750px;padding-top:24px}
+ .audience-ribbon{width:600px;font-size:42px;margin-bottom:14px}
+ .note-it{top:295px}.note-career{top:136px}.note-event{top:295px}
+ .note-it .bubble-rays{width:27px;height:33px;top:-8%}
+}
+@media(max-width:800px){
+ .hero{padding-top:24px}
+ .audience-ribbon{width:min(580px,100%);font-size:clamp(30px,5.4vw,41px);margin-bottom:23px}
+ .note-it .bubble-rays{width:27px;height:33px;top:-10%}
+}
+@media(max-width:600px){
+ .hero{padding-top:22px}
+ .audience-ribbon{font-size:clamp(20px,5.7vw,32px);margin-bottom:22px}
+ .audience-eligibility{font-size:.7em}
+ .note-it .bubble-rays{width:21px;height:26px;top:-10%}
+}
+@media(max-width:359px){
+ .audience-ribbon{font-size:20px;margin-bottom:20px}
+ .note-it .bubble-rays{width:18px;height:23px;top:-10%}
+}

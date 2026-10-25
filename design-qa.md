@@ -1,3 +1,30 @@
+# Blue university audience ribbon - 2026-10-25
+
+final result: passed
+
+Reference: ../generated_images/exec-18f6c2e9-0c15-4623-8790-1c6c313dfe85.png
+Previous public commit: a6e71ee1641c14491de7da13bfa6f13c44002e3e
+
+## Implementation and comparison
+Native SVG ribbon face, tails, folds and white seams; live HTML university name with smaller eligibility suffix. Existing orange rays moved to the upper-right of the left IT bubble. Hero height and spacing follow the approved reference. Existing glyph transforms, illustrations, lower sections and LINE URL preserved. No JavaScript or animation added.
+
+Approved reference normalized proportionally to 1440px, compared beside a 1440px browser capture: qa/audience-ribbon/reference-comparison-1440.png. Before/after: before-after-1440.png. First comparison led to larger university text, adjusted headline spacing, and lower rays. Reviewed typography, spacing, palette, image quality and content. Passed refers to the selected composition and responsive quality; generated illustration details and font outlines are not a claim of numerical pixel equality.
+
+## Browser verification
+- 320 / 390 / 768 / 1024 / 1280 / 1440px: document horizontal overflow 0px; broken images 0.
+- 320 / 390px: university label stays on one line; existing three-line headline; no clipping or overlap with bubbles, campus, students or body copy. University text is 20px / 22.23px respectively.
+- Captures at 768 / 1024 / 1440px reviewed for label, headline and bubble placement.
+- Mobile menu opens; event link navigates to #events and closes menu. Sticky header stays at top=0 after scroll.
+- Keyboard Tab navigation and visible blue 3px link focus ring confirmed. All three CTAs retain the existing LINE URL and separate-tab target. No registration submitted.
+- Local fixture with scripts removed keeps ribbon, copy, images and buttons visible. Forced reduced-motion CSS and JS branch: all data-motion elements animation:none, no hidden motion targets. OS settings were not changed.
+- Build passed; all four existing packaging tests passed.
+
+Changed: index.html / src/styles.css / AGENTS.md / design-qa.md / docs production build.
+Do not publish reference images, QA captures or local test HTML.
+
+---
+Previous QA history:
+
 # CTA案3の実装確認 — 2026-10-25
 
 結果: 選択された構成を実装し、レスポンシブ表示・操作を確認。
